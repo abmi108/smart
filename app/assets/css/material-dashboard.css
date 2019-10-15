@@ -12213,6 +12213,12 @@ thead.thead-inverse th,
   .card.card-rotate.bg-rose .front,
   .card.card-rotate.bg-rose .back {
     background: linear-gradient(60deg, #ec407a, #d81b60); }
+  .card .card-header-not-installed .card-icon,
+  .card .card-header-not-installed .card-text,
+  .card .card-header-not-installed:not(.card-header-icon):not(.card-header-text), .card.bg-not-installed,
+  .card.card-rotate.bg-not-installed .front,
+  .card.card-rotate.bg-not-installed .back {
+    background: linear-gradient(60deg, #bdbdbd, #757575); }
   .card .card-header-primary .card-icon,
   .card .card-header-primary:not(.card-header-icon):not(.card-header-text),
   .card .card-header-primary .card-text {
@@ -12243,11 +12249,11 @@ thead.thead-inverse th,
   .card .card-header-success .card-text {
     -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4);
             box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4); }
-  .card .card-header-idle .card-icon,
-  .card .card-header-idle:not(.card-header-icon):not(.card-header-text),
-  .card .card-header-idle .card-text {
-    -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4);
-            box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4); }
+  .card .card-header-not-installed .card-icon,
+  .card .card-header-not-installed:not(.card-header-icon):not(.card-header-text),
+  .card .card-header-not-installed .card-text {
+    -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(158, 158, 158, 0.4);
+            box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(158, 158, 158, 0.4); }
   .card [class*="card-header-"], .card[class*="bg-"] {
     color: #fff; }
     .card [class*="card-header-"] .card-title a,

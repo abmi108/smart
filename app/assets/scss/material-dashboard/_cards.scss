@@ -211,6 +211,15 @@
       background: linear-gradient(60deg, $pink-400, $pink-600);
     }
 
+    .card-header-not-installed .card-icon,
+    .card-header-not-installed .card-text,
+    .card-header-not-installed:not(.card-header-icon):not(.card-header-text),
+    &.bg-not-installed,
+    &.card-rotate.bg-not-installed .front,
+    &.card-rotate.bg-not-installed .back{
+      background: linear-gradient(60deg, $grey-400, $grey-600);
+    }
+
     .card-header-primary .card-icon,
     .card-header-primary:not(.card-header-icon):not(.card-header-text),
     .card-header-primary .card-text{
@@ -248,10 +257,10 @@
     .card-header-success .card-text{
         @include shadow-big-color($brand-success);
     }
-    .card-header-idle .card-icon,
-    .card-header-idle:not(.card-header-icon):not(.card-header-text),
-    .card-header-idle .card-text{
-        @include shadow-big-color($brand-success);
+    .card-header-not-installed .card-icon,
+    .card-header-not-installed:not(.card-header-icon):not(.card-header-text),
+    .card-header-not-installed .card-text{
+        @include shadow-big-color($brand-not-installed);
     }
 
     [class*="card-header-"],
