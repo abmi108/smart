@@ -38,33 +38,33 @@
       <div class="sidebar-wrapper">
         <div class="user">
           <div class="photo">
-            <img src="../assets/img/faces/avatar.jpg" />
+            <img src="../assets/img/faces/john.jpg" />
           </div>
           <div class="user-info">
             <a data-toggle="collapse" href="#collapseExample" class="username">
               <span>
-                Tania Andrew
+                John Doe
                 <b class="caret"></b>
-              </span>
+              </span> 
             </a>
             <div class="collapse" id="collapseExample">
               <ul class="nav">
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <span class="sidebar-mini"> MP </span>
-                    <span class="sidebar-normal"> My Profile </span>
+                    <i class="material-icons">account_circle</i>
+                    <span class="sidebar-normal"> Profile </span>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <span class="sidebar-mini"> EP </span>
-                    <span class="sidebar-normal"> Edit Profile </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span class="sidebar-mini"> S </span>
+                    <i class="material-icons">settings_applications</i>
                     <span class="sidebar-normal"> Settings </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="material-icons">power_settings_new</i>
+                    <span class="sidebar-normal"> Logout </span>
                   </a>
                 </li>
               </ul>
@@ -74,90 +74,1215 @@
         <ul class="nav">
           <li class="nav-item active ">
             <a class="nav-link" href="../examples/dashboard.html">
-              <i class="material-icons">dashboard</i>
+              <i class="material-icons">assessment</i>
               <p> Dashboard </p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" data-toggle="collapse" href="#clientlist">
-              <i class="material-icons">group</i>
-              <p> Clients
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">dashboard</i>
+                <p> Countries Overview </p>
+              </a>
+            </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#indiaRegions">
+              <span class="nav-text-icon">I</span>
+              <p> India
                 <b class="caret"></b>
               </p>
             </a>
-            <div class="collapse" id="clientlist">
+            <div class="collapse" id="indiaRegions">
               <ul class="nav">
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">
-                    <span class="sidebar-mini"> S </span>
-                    <span class="sidebar-normal"> SAIL </span>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/rtl.html">
-                    <span class="sidebar-mini"> A </span>
-                    <span class="sidebar-normal"> ADANI </span>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" data-toggle="collapse" href="#tataList">
-                    <span class="sidebar-mini"> T </span>
-                    <span class="sidebar-normal"> TATA   
-                      <b class="caret"></b> 
-                    </span>
-                  </a>
-                  <div class="collapse" id="tataList">
-                      <ul class="nav">
-                        <li class="nav-item ">
-                          <a class="nav-link" href="#">
-                            <span class="sidebar-mini"> K </span>
-                            <span class="sidebar-normal"> KHONDBOND </span>
-                          </a>
-                        </li>
-                        <li class="nav-item ">
-                          <a class="nav-link" href="../examples/pages/rtl.html">
-                            <span class="sidebar-mini"> J </span>
-                            <span class="sidebar-normal"> JODA </span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/login.html">
-                    <span class="sidebar-mini"> J </span>
-                    <span class="sidebar-normal"> JINDAL </span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item ">
-              <a class="nav-link" data-toggle="collapse" href="#reportList">
-                <i class="material-icons">assignment</i>
-                <p> Reports
-                  <b class="caret"></b>
-                </p>
-              </a>
-              <div class="collapse" id="reportList">
-                  <ul class="nav">
-                    <li class="nav-item ">
+                  <li class="nav-item ">
                       <a class="nav-link" href="#">
-                        <span class="sidebar-mini"> A </span>
-                        <span class="sidebar-normal"> All </span>
+                        <i class="material-icons">assessment</i>
+                        <p> Regions Overview </p>
                       </a>
                     </li>
+                <li class="nav-item ">
+                  <a class="nav-link" data-toggle="collapse" href="#indiaEastLocations">
+                    <span class="nav-text-icon">E</span>
+                    <p> India-East
+                      <b class="caret"></b>
+                    </p>
+                  </a>
+                  <div class="collapse" id="indiaEastLocations">
+                    <ul class="nav">
                     <li class="nav-item ">
-                      <a class="nav-link" href="../examples/pages/rtl.html">
-                        <span class="sidebar-mini"> C </span>
-                        <span class="sidebar-normal"> Client </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-            </li>
+                        <a class="nav-link" href="#">
+                          <i class="material-icons">assessment</i>
+                          <p> Locations Overview </p>
+                        </a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation1Clients">
+                          <span class="nav-text-icon">L</span>
+                          <p> Location 1
+                            <b class="caret"></b>
+                          </p>
+                        </a>
+                        <div class="collapse" id="indiaEastLocation1Clients">
+                          <ul class="nav">
+                              <li class="nav-item ">
+                              <a class="nav-link" href="#">
+                                <i class="material-icons">assessment</i>
+                                <p> Clients Overview </p>
+                              </a>
+                            </li>
+                            <li class="nav-item ">
+                              <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation1Client1Depts">
+                                <span class="nav-text-icon">C1</span>
+                                <p> Client 1
+                                  <b class="caret"></b>
+                                </p>
+                              </a>
+                              <div class="collapse" id="indiaEastLocation1Client1Depts">
+                                <ul class="nav">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">
+                                      <i class="material-icons">assessment</i>
+                                      <p> Departments Overview </p>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item ">
+                                    <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation1Client1Dept1Subdepts">
+                                      <span class="nav-text-icon">D1</span>
+                                      <p> Dept 1
+                                        <b class="caret"></b>
+                                      </p>
+                                    </a>
+                                    <div class="collapse" id="indiaEastLocation1Client1Dept1Subdepts">
+                                      <ul class="nav">
+                                      <li class="nav-item ">
+                                          <a class="nav-link" href="#">
+                                            <i class="material-icons">assessment</i>
+                                            <p> Sub-Depts Overview </p>
+                                          </a>
+                                        </li>
+                                        <li class="nav-item ">
+                                          <a class="nav-link" data-toggle="collapse" href="#">
+                                            <span class="nav-text-icon">SD1</span>
+                                            <p> Sub-Dept 1
+                                            </p>
+                                          </a>
+                                        </li>
+                                        <li class="nav-item ">
+                                          <a class="nav-link" data-toggle="collapse" href="#">
+                                            <span class="nav-text-icon">SD2</span>
+                                            <p> Sub-Dept 2
+                                            </p>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                  <li class="nav-item ">
+                                      <a class="nav-link" data-toggle="collapse" href="#">
+                                        <span class="nav-text-icon">D2</span>
+                                        <p> Dept 2
+                                        </p>
+                                      </a>
+                                    </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation1Client2Depts">
+                                  <span class="nav-text-icon">C2</span>
+                                  <p> Client 2
+                                    <b class="caret"></b>
+                                  </p>
+                                </a>
+                                <div class="collapse" id="indiaEastLocation1Client2Depts">
+                                  <ul class="nav">
+                                      <li class="nav-item ">
+                                          <a class="nav-link" href="#">
+                                            <i class="material-icons">assessment</i>
+                                            <p> Departments Overview </p>
+                                          </a>
+                                        </li>
+                                    <li class="nav-item ">
+                                      <a class="nav-link" data-toggle="collapse" href="#">
+                                        <span class="nav-text-icon">D1</span>
+                                        <p> Dept 1
+                                        </p>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" data-toggle="collapse" href="#">
+                                          <span class="nav-text-icon">D2</span>
+                                          <p> Dept 2
+                                          </p>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item ">
+                                          <a class="nav-link" data-toggle="collapse" href="#">
+                                            <span class="nav-text-icon">D3</span>
+                                            <p> Dept 3
+                                            </p>
+                                          </a>
+                                        </li>
+                                  </ul>
+                                </div>
+                              </li>
+                          </ul>
+                          </div>
+                            </li>
+                            <li class="nav-item ">
+                              <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation2Clients">
+                                <span class="nav-text-icon">L</span>
+                                <p> Location 2
+                                  <b class="caret"></b>
+                                </p>
+                              </a>
+                              <div class="collapse" id="indiaEastLocation2Clients">
+                                <ul class="nav">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="#">
+                                          <i class="material-icons">assessment</i>
+                                          <p> Clients Overview </p>
+                                        </a>
+                                      </li>
+                                  <li class="nav-item ">
+                                    <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation2Client1Depts">
+                                      <span class="nav-text-icon">C1</span>
+                                      <p> Client 1
+                                        <b class="caret"></b>
+                                      </p>
+                                    </a>
+                                    <div class="collapse" id="indiaEastLocation2Client1Depts">
+                                        <ul class="nav">
+                                            <li class="nav-item ">
+                                                <a class="nav-link" href="#">
+                                                  <i class="material-icons">assessment</i>
+                                                  <p> Departments Overview </p>
+                                                </a>
+                                              </li>
+                                          <li class="nav-item ">
+                                            <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation2Client1Dept1Subdepts">
+                                              <span class="nav-text-icon">D1</span>
+                                              <p> Dept 1
+                                                <b class="caret"></b>
+                                              </p>
+                                            </a>
+                                            <div class="collapse" id="indiaEastLocation2Client1Dept1Subdepts">
+                                              <ul class="nav">
+                                                  <li class="nav-item ">
+                                                      <a class="nav-link" href="#">
+                                                        <i class="material-icons">assessment</i>
+                                                        <p> Sub-Depts Overview </p>
+                                                      </a>
+                                                    </li>
+                                                <li class="nav-item ">
+                                                  <a class="nav-link" data-toggle="collapse" href="#">
+                                                    <span class="nav-text-icon">SD1</span>
+                                                    <p> Sub-Dept 1
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                  <a class="nav-link" data-toggle="collapse" href="#">
+                                                    <span class="nav-text-icon">SD2</span>
+                                                    <p> Sub-Dept 2
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </li>
+                                          <li class="nav-item ">
+                                              <a class="nav-link" data-toggle="collapse" href="#">
+                                                <span class="nav-text-icon">D1</span>
+                                                <p> Dept 2
+                                                </p>
+                                              </a>
+                                            </li>
+                                        </ul>
+                                      </div>
+                                  </li>
+                                  <li class="nav-item ">
+                                      <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation2Client2Depts">
+                                        <span class="nav-text-icon">C2</span>
+                                        <p> Client 2
+                                          <b class="caret"></b>
+                                        </p>
+                                      </a>
+                                      <div class="collapse" id="indiaEastLocation2Client2Depts">
+                                          <ul class="nav">
+                                              <li class="nav-item ">
+                                                  <a class="nav-link" href="#">
+                                                    <i class="material-icons">assessment</i>
+                                                    <p> Departments Overview </p>
+                                                  </a>
+                                                </li>
+                                            <li class="nav-item ">
+                                              <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation2Client2Dept1Subdepts">
+                                                <span class="nav-text-icon">D1</span>
+                                                <p> Dept 1
+                                                  <b class="caret"></b>
+                                                </p>
+                                              </a>
+                                              <div class="collapse" id="indiaEastLocation2Client2Dept1Subdepts">
+                                                <ul class="nav">
+                                                    <li class="nav-item ">
+                                                        <a class="nav-link" href="#">
+                                                          <i class="material-icons">assessment</i>
+                                                          <p> Sub-Depts Overview </p>
+                                                        </a>
+                                                      </li>
+                                                  <li class="nav-item ">
+                                                    <a class="nav-link" data-toggle="collapse" href="#">
+                                                      <span class="nav-text-icon">SD1</span>
+                                                      <p> Sub-Dept 1
+                                                      </p>
+                                                    </a>
+                                                  </li>
+                                                  <li class="nav-item ">
+                                                    <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation2Client2Dept1SubDept2SubSubDepts">
+                                                      <span class="nav-text-icon">SD2</span>
+                                                      <p> Sub-Dept 2
+                                                          <b class="caret"></b>
+                                                      </p>
+                                                    </a>
+                                                    <div class="collapse" id="indiaEastLocation2Client2Dept1SubDept2SubSubDepts">
+                                                        <ul class="nav">
+                                                            <li class="nav-item ">
+                                                                <a class="nav-link" href="#">
+                                                                  <i class="material-icons">assessment</i>
+                                                                  <p> Sub-Sub-Depts Overview </p>
+                                                                </a>
+                                                              </li>
+                                                          <li class="nav-item ">
+                                                            <a class="nav-link" data-toggle="collapse" href="#">
+                                                              <span class="nav-text-icon">SSD1</span>
+                                                              <p> Sub-Sub-Dept 1
+                                                              </p>
+                                                            </a>
+                                                          </li>
+                                                          <li class="nav-item ">
+                                                              <a class="nav-link" data-toggle="collapse" href="#">
+                                                                <span class="nav-text-icon">SSD2</span>
+                                                                <p> Sub-Sub-Dept 2
+                                                                </p>
+                                                              </a>
+                                                            </li>
+                                                        </ul>
+                                                      </div>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                            </li>
+                                            <li class="nav-item ">
+                                                <a class="nav-link" data-toggle="collapse" href="#">
+                                                  <span class="nav-text-icon">D2</span>
+                                                  <p> Dept 2
+                                                  </p>
+                                                </a>
+                                              </li>
+                                          </ul>
+                                        </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocations">
+                          <span class="nav-text-icon">S</span>
+                          <p> India-South
+                            <b class="caret"></b>
+                          </p>
+                        </a>
+                        <div class="collapse" id="indiaSouthLocations">
+                            <ul class="nav">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">
+                                      <i class="material-icons">assessment</i>
+                                      <p> Locations Overview </p>
+                                    </a>
+                                  </li>
+                              <li class="nav-item ">
+                                <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation1Clients">
+                                  <span class="nav-text-icon">L</span>
+                                  <p> Location 1
+                                    <b class="caret"></b>
+                                  </p>
+                                </a>
+                                <div class="collapse" id="indiaSouthLocation1Clients">
+                                  <ul class="nav">
+                                      <li class="nav-item ">
+                                          <a class="nav-link" href="#">
+                                            <i class="material-icons">assessment</i>
+                                            <p> Clients Overview </p>
+                                          </a>
+                                        </li>
+                                    <li class="nav-item ">
+                                      <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation1Client1Depts">
+                                        <span class="nav-text-icon">C1</span>
+                                        <p> Client 1
+                                          <b class="caret"></b>
+                                        </p>
+                                      </a>
+                                      <div class="collapse" id="indiaSouthLocation1Client1Depts">
+                                        <ul class="nav">
+                                            <li class="nav-item ">
+                                                <a class="nav-link" href="#">
+                                                  <i class="material-icons">assessment</i>
+                                                  <p> Departments Overview </p>
+                                                </a>
+                                              </li>
+                                          <li class="nav-item ">
+                                            <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation1Client1Dept1Subdepts">
+                                              <span class="nav-text-icon">D1</span>
+                                              <p> Dept 1
+                                                <b class="caret"></b>
+                                              </p>
+                                            </a>
+                                            <div class="collapse" id="indiaSouthLocation1Client1Dept1Subdepts">
+                                              <ul class="nav">
+                                                  <li class="nav-item ">
+                                                      <a class="nav-link" href="#">
+                                                        <i class="material-icons">assessment</i>
+                                                        <p> Sub-Depts Overview </p>
+                                                      </a>
+                                                    </li>
+                                                <li class="nav-item ">
+                                                  <a class="nav-link" data-toggle="collapse" href="#">
+                                                    <span class="nav-text-icon">SD1</span>
+                                                    <p> Sub-Dept 1
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                  <a class="nav-link" data-toggle="collapse" href="#">
+                                                    <span class="nav-text-icon">SD2</span>
+                                                    <p> Sub-Dept 2
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </li>
+                                          <li class="nav-item ">
+                                              <a class="nav-link" data-toggle="collapse" href="#">
+                                                <span class="nav-text-icon">D2</span>
+                                                <p> Dept 2
+                                                </p>
+                                              </a>
+                                            </li>
+                                        </ul>
+                                      </div>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation1Client2Depts">
+                                          <span class="nav-text-icon">C2</span>
+                                          <p> Client 2
+                                            <b class="caret"></b>
+                                          </p>
+                                        </a>
+                                        <div class="collapse" id="indiaSouthLocation1Client2Depts">
+                                          <ul class="nav">
+                                              <li class="nav-item ">
+                                                  <a class="nav-link" href="#">
+                                                    <i class="material-icons">assessment</i>
+                                                    <p> Departments Overview </p>
+                                                  </a>
+                                                </li>
+                                            <li class="nav-item ">
+                                              <a class="nav-link" data-toggle="collapse" href="#">
+                                                <span class="nav-text-icon">D1</span>
+                                                <p> Dept 1
+                                                </p>
+                                              </a>
+                                            </li>
+                                            <li class="nav-item ">
+                                                <a class="nav-link" data-toggle="collapse" href="#">
+                                                  <span class="nav-text-icon">D2</span>
+                                                  <p> Dept 2
+                                                  </p>
+                                                </a>
+                                              </li>
+                                              <li class="nav-item ">
+                                                  <a class="nav-link" data-toggle="collapse" href="#">
+                                                    <span class="nav-text-icon">D3</span>
+                                                    <p> Dept 3
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                          </ul>
+                                        </div>
+                                      </li>
+                                  </ul>
+                                  </div>
+                                    </li>
+                                    <li class="nav-item ">
+                                      <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation2Clients">
+                                        <span class="nav-text-icon">L</span>
+                                        <p> Location 2
+                                          <b class="caret"></b>
+                                        </p>
+                                      </a>
+                                      <div class="collapse" id="indiaSouthLocation2Clients">
+                                        <ul class="nav">
+                                            <li class="nav-item ">
+                                                <a class="nav-link" href="#">
+                                                  <i class="material-icons">assessment</i>
+                                                  <p> Clients Overview </p>
+                                                </a>
+                                              </li>
+                                          <li class="nav-item ">
+                                            <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation2Client1Depts">
+                                              <span class="nav-text-icon">C1</span>
+                                              <p> Client 1
+                                                <b class="caret"></b>
+                                              </p>
+                                            </a>
+                                            <div class="collapse" id="indiaSouthLocation2Client1Depts">
+                                                <ul class="nav">
+                                                    <li class="nav-item ">
+                                                        <a class="nav-link" href="#">
+                                                          <i class="material-icons">assessment</i>
+                                                          <p> Departments Overview </p>
+                                                        </a>
+                                                      </li>
+                                                  <li class="nav-item ">
+                                                    <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation2Client1Dept1Subdepts">
+                                                      <span class="nav-text-icon">D1</span>
+                                                      <p> Dept 1
+                                                        <b class="caret"></b>
+                                                      </p>
+                                                    </a>
+                                                    <div class="collapse" id="indiaSouthLocation2Client1Dept1Subdepts">
+                                                      <ul class="nav">
+                                                          <li class="nav-item ">
+                                                              <a class="nav-link" href="#">
+                                                                <i class="material-icons">assessment</i>
+                                                                <p> Sub-Depts Overview </p>
+                                                              </a>
+                                                            </li>
+                                                        <li class="nav-item ">
+                                                          <a class="nav-link" data-toggle="collapse" href="#">
+                                                            <span class="nav-text-icon">SD1</span>
+                                                            <p> Sub-Dept 1
+                                                            </p>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item ">
+                                                          <a class="nav-link" data-toggle="collapse" href="#">
+                                                            <span class="nav-text-icon">SD2</span>
+                                                            <p> Sub-Dept 2
+                                                            </p>
+                                                          </a>
+                                                        </li>
+                                                      </ul>
+                                                    </div>
+                                                  </li>
+                                                  <li class="nav-item ">
+                                                      <a class="nav-link" data-toggle="collapse" href="#">
+                                                        <span class="nav-text-icon">D1</span>
+                                                        <p> Dept 2
+                                                        </p>
+                                                      </a>
+                                                    </li>
+                                                </ul>
+                                              </div>
+                                          </li>
+                                          <li class="nav-item ">
+                                              <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation2Client2Depts">
+                                                <span class="nav-text-icon">C2</span>
+                                                <p> Client 2
+                                                  <b class="caret"></b>
+                                                </p>
+                                              </a>
+                                              <div class="collapse" id="indiaSouthLocation2Client2Depts">
+                                                  <ul class="nav">
+                                                      <li class="nav-item ">
+                                                          <a class="nav-link" href="#">
+                                                            <i class="material-icons">assessment</i>
+                                                            <p> Departments Overview </p>
+                                                          </a>
+                                                        </li>
+                                                    <li class="nav-item ">
+                                                      <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation2Client2Dept1Subdepts">
+                                                        <span class="nav-text-icon">D1</span>
+                                                        <p> Dept 1
+                                                          <b class="caret"></b>
+                                                        </p>
+                                                      </a>
+                                                      <div class="collapse" id="indiaSouthLocation2Client2Dept1Subdepts">
+                                                        <ul class="nav">
+                                                            <li class="nav-item ">
+                                                                <a class="nav-link" href="#">
+                                                                  <i class="material-icons">assessment</i>
+                                                                  <p> Sub-Depts Overview </p>
+                                                                </a>
+                                                              </li>
+                                                          <li class="nav-item ">
+                                                            <a class="nav-link" data-toggle="collapse" href="#">
+                                                              <span class="nav-text-icon">SD1</span>
+                                                              <p> Sub-Dept 1
+                                                              </p>
+                                                            </a>
+                                                          </li>
+                                                          <li class="nav-item ">
+                                                            <a class="nav-link" data-toggle="collapse" href="#indiaSouthLocation2Client2Dept1Subdept2SubSubDepts">
+                                                              <span class="nav-text-icon">SD2</span>
+                                                              <p> Sub-Dept 2
+                                                                  <b class="caret"></b>
+                                                              </p>
+                                                            </a>
+                                                            <div class="collapse" id="indiaSouthLocation2Client2Dept1Subdept2SubSubDepts">
+                                                                <ul class="nav">
+                                                                    <li class="nav-item ">
+                                                                        <a class="nav-link" href="#">
+                                                                          <i class="material-icons">assessment</i>
+                                                                          <p> Sub-Sub-Depts Overview </p>
+                                                                        </a>
+                                                                      </li>
+                                                                  <li class="nav-item ">
+                                                                    <a class="nav-link" data-toggle="collapse" href="#">
+                                                                      <span class="nav-text-icon">SSD1</span>
+                                                                      <p> Sub-Sub-Dept 1
+                                                                      </p>
+                                                                    </a>
+                                                                  </li>
+                                                                  <li class="nav-item ">
+                                                                      <a class="nav-link" data-toggle="collapse" href="#">
+                                                                        <span class="nav-text-icon">SSD2</span>
+                                                                        <p> Sub-Sub-Dept 2
+                                                                        </p>
+                                                                      </a>
+                                                                    </li>
+                                                                </ul>
+                                                              </div>
+                                                          </li>
+                                                        </ul>
+                                                      </div>
+                                                    </li>
+                                                    <li class="nav-item ">
+                                                        <a class="nav-link" data-toggle="collapse" href="#">
+                                                          <span class="nav-text-icon">D2</span>
+                                                          <p> Dept 2
+                                                          </p>
+                                                        </a>
+                                                      </li>
+                                                  </ul>
+                                                </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                      </li>
+                    </ul>
+                    </div>
+                  </li>
 
-        </ul>
+                  <li class="nav-item">
+                      <a class="nav-link" data-toggle="collapse" href="#ausRegions">
+                        <span class="nav-text-icon">I</span>
+                        <p> Australia
+                          <b class="caret"></b>
+                        </p>
+                      </a>
+                      <div class="collapse" id="ausRegions">
+                        <ul class="nav">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">
+                                  <i class="material-icons">assessment</i>
+                                  <p> Regions Overview </p>
+                                </a>
+                              </li>
+                          <li class="nav-item ">
+                            <a class="nav-link" data-toggle="collapse" href="#ausEastLocations">
+                              <span class="nav-text-icon">E</span>
+                              <p> Australia-East
+                                <b class="caret"></b>
+                              </p>
+                            </a>
+                            <div class="collapse" id="ausEastLocations">
+                              <ul class="nav">
+                              <li class="nav-item ">
+                                  <a class="nav-link" href="#">
+                                    <i class="material-icons">assessment</i>
+                                    <p> Locations Overview </p>
+                                  </a>
+                                </li>
+                                <li class="nav-item ">
+                                  <a class="nav-link" data-toggle="collapse" href="#ausEastLocation1Clients">
+                                    <span class="nav-text-icon">L</span>
+                                    <p> Location 1
+                                      <b class="caret"></b>
+                                    </p>
+                                  </a>
+                                  <div class="collapse" id="ausEastLocation1Clients">
+                                    <ul class="nav">
+                                        <li class="nav-item ">
+                                        <a class="nav-link" href="#">
+                                          <i class="material-icons">assessment</i>
+                                          <p> Clients Overview </p>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item ">
+                                        <a class="nav-link" data-toggle="collapse" href="#ausEastLocation1Client1Depts">
+                                          <span class="nav-text-icon">C1</span>
+                                          <p> Client 1
+                                            <b class="caret"></b>
+                                          </p>
+                                        </a>
+                                        <div class="collapse" id="ausEastLocation1Client1Depts">
+                                          <ul class="nav">
+                                          <li class="nav-item ">
+                                              <a class="nav-link" href="#">
+                                                <i class="material-icons">assessment</i>
+                                                <p> Departments Overview </p>
+                                              </a>
+                                            </li>
+                                            <li class="nav-item ">
+                                              <a class="nav-link" data-toggle="collapse" href="#ausEastLocation1Client1Dept1Subdepts">
+                                                <span class="nav-text-icon">D1</span>
+                                                <p> Dept 1
+                                                  <b class="caret"></b>
+                                                </p>
+                                              </a>
+                                              <div class="collapse" id="ausEastLocation1Client1Dept1Subdepts">
+                                                <ul class="nav">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">
+                                                      <i class="material-icons">assessment</i>
+                                                      <p> Sub-Depts Overview </p>
+                                                    </a>
+                                                  </li>
+                                                  <li class="nav-item ">
+                                                    <a class="nav-link" data-toggle="collapse" href="#">
+                                                      <span class="nav-text-icon">SD1</span>
+                                                      <p> Sub-Dept 1
+                                                      </p>
+                                                    </a>
+                                                  </li>
+                                                  <li class="nav-item ">
+                                                    <a class="nav-link" data-toggle="collapse" href="#">
+                                                      <span class="nav-text-icon">SD2</span>
+                                                      <p> Sub-Dept 2
+                                                      </p>
+                                                    </a>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                            </li>
+                                            <li class="nav-item ">
+                                                <a class="nav-link" data-toggle="collapse" href="#">
+                                                  <span class="nav-text-icon">D2</span>
+                                                  <p> Dept 2
+                                                  </p>
+                                                </a>
+                                              </li>
+                                          </ul>
+                                        </div>
+                                      </li>
+                                      <li class="nav-item ">
+                                          <a class="nav-link" data-toggle="collapse" href="#ausEastLocation1Client2Depts">
+                                            <span class="nav-text-icon">C2</span>
+                                            <p> Client 2
+                                              <b class="caret"></b>
+                                            </p>
+                                          </a>
+                                          <div class="collapse" id="ausEastLocation1Client2Depts">
+                                            <ul class="nav">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">
+                                                      <i class="material-icons">assessment</i>
+                                                      <p> Departments Overview </p>
+                                                    </a>
+                                                  </li>
+                                              <li class="nav-item ">
+                                                <a class="nav-link" data-toggle="collapse" href="#">
+                                                  <span class="nav-text-icon">D1</span>
+                                                  <p> Dept 1
+                                                  </p>
+                                                </a>
+                                              </li>
+                                              <li class="nav-item ">
+                                                  <a class="nav-link" data-toggle="collapse" href="#">
+                                                    <span class="nav-text-icon">D2</span>
+                                                    <p> Dept 2
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" data-toggle="collapse" href="#">
+                                                      <span class="nav-text-icon">D3</span>
+                                                      <p> Dept 3
+                                                      </p>
+                                                    </a>
+                                                  </li>
+                                            </ul>
+                                          </div>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                      </li>
+                                      <li class="nav-item ">
+                                        <a class="nav-link" data-toggle="collapse" href="#ausEastLocation2Clients">
+                                          <span class="nav-text-icon">L</span>
+                                          <p> Location 2
+                                            <b class="caret"></b>
+                                          </p>
+                                        </a>
+                                        <div class="collapse" id="ausEastLocation2Clients">
+                                          <ul class="nav">
+                                              <li class="nav-item ">
+                                                  <a class="nav-link" href="#">
+                                                    <i class="material-icons">assessment</i>
+                                                    <p> Clients Overview </p>
+                                                  </a>
+                                                </li>
+                                            <li class="nav-item ">
+                                              <a class="nav-link" data-toggle="collapse" href="#ausEastLocation2Client1Depts">
+                                                <span class="nav-text-icon">C1</span>
+                                                <p> Client 1
+                                                  <b class="caret"></b>
+                                                </p>
+                                              </a>
+                                              <div class="collapse" id="ausEastLocation2Client1Depts">
+                                                  <ul class="nav">
+                                                      <li class="nav-item ">
+                                                          <a class="nav-link" href="#">
+                                                            <i class="material-icons">assessment</i>
+                                                            <p> Departments Overview </p>
+                                                          </a>
+                                                        </li>
+                                                    <li class="nav-item ">
+                                                      <a class="nav-link" data-toggle="collapse" href="#ausEastLocation2Client1Dept1Subdepts">
+                                                        <span class="nav-text-icon">D1</span>
+                                                        <p> Dept 1
+                                                          <b class="caret"></b>
+                                                        </p>
+                                                      </a>
+                                                      <div class="collapse" id="ausEastLocation2Client1Dept1Subdepts">
+                                                        <ul class="nav">
+                                                            <li class="nav-item ">
+                                                                <a class="nav-link" href="#">
+                                                                  <i class="material-icons">assessment</i>
+                                                                  <p> Sub-Depts Overview </p>
+                                                                </a>
+                                                              </li>
+                                                          <li class="nav-item ">
+                                                            <a class="nav-link" data-toggle="collapse" href="#">
+                                                              <span class="nav-text-icon">SD1</span>
+                                                              <p> Sub-Dept 1
+                                                              </p>
+                                                            </a>
+                                                          </li>
+                                                          <li class="nav-item ">
+                                                            <a class="nav-link" data-toggle="collapse" href="#">
+                                                              <span class="nav-text-icon">SD2</span>
+                                                              <p> Sub-Dept 2
+                                                              </p>
+                                                            </a>
+                                                          </li>
+                                                        </ul>
+                                                      </div>
+                                                    </li>
+                                                    <li class="nav-item ">
+                                                        <a class="nav-link" data-toggle="collapse" href="#">
+                                                          <span class="nav-text-icon">D1</span>
+                                                          <p> Dept 2
+                                                          </p>
+                                                        </a>
+                                                      </li>
+                                                  </ul>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item ">
+                                                <a class="nav-link" data-toggle="collapse" href="#ausEastLocation2Client2Depts">
+                                                  <span class="nav-text-icon">C2</span>
+                                                  <p> Client 2
+                                                    <b class="caret"></b>
+                                                  </p>
+                                                </a>
+                                                <div class="collapse" id="ausEastLocation2Client2Depts">
+                                                    <ul class="nav">
+                                                        <li class="nav-item ">
+                                                            <a class="nav-link" href="#">
+                                                              <i class="material-icons">assessment</i>
+                                                              <p> Departments Overview </p>
+                                                            </a>
+                                                          </li>
+                                                      <li class="nav-item ">
+                                                        <a class="nav-link" data-toggle="collapse" href="#ausEastLocation2Client2Dept1Subdepts">
+                                                          <span class="nav-text-icon">D1</span>
+                                                          <p> Dept 1
+                                                            <b class="caret"></b>
+                                                          </p>
+                                                        </a>
+                                                        <div class="collapse" id="ausEastLocation2Client2Dept1Subdepts">
+                                                          <ul class="nav">
+                                                              <li class="nav-item ">
+                                                                  <a class="nav-link" href="#">
+                                                                    <i class="material-icons">assessment</i>
+                                                                    <p> Sub-Depts Overview </p>
+                                                                  </a>
+                                                                </li>
+                                                            <li class="nav-item ">
+                                                              <a class="nav-link" data-toggle="collapse" href="#">
+                                                                <span class="nav-text-icon">SD1</span>
+                                                                <p> Sub-Dept 1
+                                                                </p>
+                                                              </a>
+                                                            </li>
+                                                            <li class="nav-item ">
+                                                              <a class="nav-link" data-toggle="collapse" href="#ausEastLocation2Client2Dept1SubDept2SubSubDepts">
+                                                                <span class="nav-text-icon">SD2</span>
+                                                                <p> Sub-Dept 2
+                                                                    <b class="caret"></b>
+                                                                </p>
+                                                              </a>
+                                                              <div class="collapse" id="ausEastLocation2Client2Dept1SubDept2SubSubDepts">
+                                                                  <ul class="nav">
+                                                                      <li class="nav-item ">
+                                                                          <a class="nav-link" href="#">
+                                                                            <i class="material-icons">assessment</i>
+                                                                            <p> Sub-Sub-Depts Overview </p>
+                                                                          </a>
+                                                                        </li>
+                                                                    <li class="nav-item ">
+                                                                      <a class="nav-link" data-toggle="collapse" href="#">
+                                                                        <span class="nav-text-icon">SSD1</span>
+                                                                        <p> Sub-Sub-Dept 1
+                                                                        </p>
+                                                                      </a>
+                                                                    </li>
+                                                                    <li class="nav-item ">
+                                                                        <a class="nav-link" data-toggle="collapse" href="#">
+                                                                          <span class="nav-text-icon">SSD2</span>
+                                                                          <p> Sub-Sub-Dept 2
+                                                                          </p>
+                                                                        </a>
+                                                                      </li>
+                                                                  </ul>
+                                                                </div>
+                                                            </li>
+                                                          </ul>
+                                                        </div>
+                                                      </li>
+                                                      <li class="nav-item ">
+                                                          <a class="nav-link" data-toggle="collapse" href="#">
+                                                            <span class="nav-text-icon">D2</span>
+                                                            <p> Dept 2
+                                                            </p>
+                                                          </a>
+                                                        </li>
+                                                    </ul>
+                                                  </div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="nav-item ">
+                                  <a class="nav-link" data-toggle="collapse" href="#ausSouthLocations">
+                                    <span class="nav-text-icon">S</span>
+                                    <p> Australia-South
+                                      <b class="caret"></b>
+                                    </p>
+                                  </a>
+                                  <div class="collapse" id="ausSouthLocations">
+                                      <ul class="nav">
+                                          <li class="nav-item ">
+                                              <a class="nav-link" href="#">
+                                                <i class="material-icons">assessment</i>
+                                                <p> Locations Overview </p>
+                                              </a>
+                                            </li>
+                                        <li class="nav-item ">
+                                          <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation1Clients">
+                                            <span class="nav-text-icon">L</span>
+                                            <p> Location 1
+                                              <b class="caret"></b>
+                                            </p>
+                                          </a>
+                                          <div class="collapse" id="ausSouthLocation1Clients">
+                                            <ul class="nav">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">
+                                                      <i class="material-icons">assessment</i>
+                                                      <p> Clients Overview </p>
+                                                    </a>
+                                                  </li>
+                                              <li class="nav-item ">
+                                                <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation1Client1Depts">
+                                                  <span class="nav-text-icon">C1</span>
+                                                  <p> Client 1
+                                                    <b class="caret"></b>
+                                                  </p>
+                                                </a>
+                                                <div class="collapse" id="ausSouthLocation1Client1Depts">
+                                                  <ul class="nav">
+                                                      <li class="nav-item ">
+                                                          <a class="nav-link" href="#">
+                                                            <i class="material-icons">assessment</i>
+                                                            <p> Departments Overview </p>
+                                                          </a>
+                                                        </li>
+                                                    <li class="nav-item ">
+                                                      <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation1Client1Dept1Subdepts">
+                                                        <span class="nav-text-icon">D1</span>
+                                                        <p> Dept 1
+                                                          <b class="caret"></b>
+                                                        </p>
+                                                      </a>
+                                                      <div class="collapse" id="ausSouthLocation1Client1Dept1Subdepts">
+                                                        <ul class="nav">
+                                                            <li class="nav-item ">
+                                                                <a class="nav-link" href="#">
+                                                                  <i class="material-icons">assessment</i>
+                                                                  <p> Sub-Depts Overview </p>
+                                                                </a>
+                                                              </li>
+                                                          <li class="nav-item ">
+                                                            <a class="nav-link" data-toggle="collapse" href="#">
+                                                              <span class="nav-text-icon">SD1</span>
+                                                              <p> Sub-Dept 1
+                                                              </p>
+                                                            </a>
+                                                          </li>
+                                                          <li class="nav-item ">
+                                                            <a class="nav-link" data-toggle="collapse" href="#">
+                                                              <span class="nav-text-icon">SD2</span>
+                                                              <p> Sub-Dept 2
+                                                              </p>
+                                                            </a>
+                                                          </li>
+                                                        </ul>
+                                                      </div>
+                                                    </li>
+                                                    <li class="nav-item ">
+                                                        <a class="nav-link" data-toggle="collapse" href="#">
+                                                          <span class="nav-text-icon">D2</span>
+                                                          <p> Dept 2
+                                                          </p>
+                                                        </a>
+                                                      </li>
+                                                  </ul>
+                                                </div>
+                                              </li>
+                                              <li class="nav-item ">
+                                                  <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation1Client2Depts">
+                                                    <span class="nav-text-icon">C2</span>
+                                                    <p> Client 2
+                                                      <b class="caret"></b>
+                                                    </p>
+                                                  </a>
+                                                  <div class="collapse" id="ausSouthLocation1Client2Depts">
+                                                    <ul class="nav">
+                                                        <li class="nav-item ">
+                                                            <a class="nav-link" href="#">
+                                                              <i class="material-icons">assessment</i>
+                                                              <p> Departments Overview </p>
+                                                            </a>
+                                                          </li>
+                                                      <li class="nav-item ">
+                                                        <a class="nav-link" data-toggle="collapse" href="#">
+                                                          <span class="nav-text-icon">D1</span>
+                                                          <p> Dept 1
+                                                          </p>
+                                                        </a>
+                                                      </li>
+                                                      <li class="nav-item ">
+                                                          <a class="nav-link" data-toggle="collapse" href="#">
+                                                            <span class="nav-text-icon">D2</span>
+                                                            <p> Dept 2
+                                                            </p>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item ">
+                                                            <a class="nav-link" data-toggle="collapse" href="#">
+                                                              <span class="nav-text-icon">D3</span>
+                                                              <p> Dept 3
+                                                              </p>
+                                                            </a>
+                                                          </li>
+                                                    </ul>
+                                                  </div>
+                                                </li>
+                                            </ul>
+                                            </div>
+                                              </li>
+                                              <li class="nav-item ">
+                                                <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation2Clients">
+                                                  <span class="nav-text-icon">L</span>
+                                                  <p> Location 2
+                                                    <b class="caret"></b>
+                                                  </p>
+                                                </a>
+                                                <div class="collapse" id="ausSouthLocation2Clients">
+                                                  <ul class="nav">
+                                                      <li class="nav-item ">
+                                                          <a class="nav-link" href="#">
+                                                            <i class="material-icons">assessment</i>
+                                                            <p> Clients Overview </p>
+                                                          </a>
+                                                        </li>
+                                                    <li class="nav-item ">
+                                                      <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation2Client1Depts">
+                                                        <span class="nav-text-icon">C1</span>
+                                                        <p> Client 1
+                                                          <b class="caret"></b>
+                                                        </p>
+                                                      </a>
+                                                      <div class="collapse" id="ausSouthLocation2Client1Depts">
+                                                          <ul class="nav">
+                                                              <li class="nav-item ">
+                                                                  <a class="nav-link" href="#">
+                                                                    <i class="material-icons">assessment</i>
+                                                                    <p> Departments Overview </p>
+                                                                  </a>
+                                                                </li>
+                                                            <li class="nav-item ">
+                                                              <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation2Client1Dept1Subdepts">
+                                                                <span class="nav-text-icon">D1</span>
+                                                                <p> Dept 1
+                                                                  <b class="caret"></b>
+                                                                </p>
+                                                              </a>
+                                                              <div class="collapse" id="ausSouthLocation2Client1Dept1Subdepts">
+                                                                <ul class="nav">
+                                                                    <li class="nav-item ">
+                                                                        <a class="nav-link" href="#">
+                                                                          <i class="material-icons">assessment</i>
+                                                                          <p> Sub-Depts Overview </p>
+                                                                        </a>
+                                                                      </li>
+                                                                  <li class="nav-item ">
+                                                                    <a class="nav-link" data-toggle="collapse" href="#">
+                                                                      <span class="nav-text-icon">SD1</span>
+                                                                      <p> Sub-Dept 1
+                                                                      </p>
+                                                                    </a>
+                                                                  </li>
+                                                                  <li class="nav-item ">
+                                                                    <a class="nav-link" data-toggle="collapse" href="#">
+                                                                      <span class="nav-text-icon">SD2</span>
+                                                                      <p> Sub-Dept 2
+                                                                      </p>
+                                                                    </a>
+                                                                  </li>
+                                                                </ul>
+                                                              </div>
+                                                            </li>
+                                                            <li class="nav-item ">
+                                                                <a class="nav-link" data-toggle="collapse" href="#">
+                                                                  <span class="nav-text-icon">D1</span>
+                                                                  <p> Dept 2
+                                                                  </p>
+                                                                </a>
+                                                              </li>
+                                                          </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item ">
+                                                        <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation2Client2Depts">
+                                                          <span class="nav-text-icon">C2</span>
+                                                          <p> Client 2
+                                                            <b class="caret"></b>
+                                                          </p>
+                                                        </a>
+                                                        <div class="collapse" id="ausSouthLocation2Client2Depts">
+                                                            <ul class="nav">
+                                                                <li class="nav-item ">
+                                                                    <a class="nav-link" href="#">
+                                                                      <i class="material-icons">assessment</i>
+                                                                      <p> Departments Overview </p>
+                                                                    </a>
+                                                                  </li>
+                                                              <li class="nav-item ">
+                                                                <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation2Client2Dept1Subdepts">
+                                                                  <span class="nav-text-icon">D1</span>
+                                                                  <p> Dept 1
+                                                                    <b class="caret"></b>
+                                                                  </p>
+                                                                </a>
+                                                                <div class="collapse" id="ausSouthLocation2Client2Dept1Subdepts">
+                                                                  <ul class="nav">
+                                                                      <li class="nav-item ">
+                                                                          <a class="nav-link" href="#">
+                                                                            <i class="material-icons">assessment</i>
+                                                                            <p> Sub-Depts Overview </p>
+                                                                          </a>
+                                                                        </li>
+                                                                    <li class="nav-item ">
+                                                                      <a class="nav-link" data-toggle="collapse" href="#">
+                                                                        <span class="nav-text-icon">SD1</span>
+                                                                        <p> Sub-Dept 1
+                                                                        </p>
+                                                                      </a>
+                                                                    </li>
+                                                                    <li class="nav-item ">
+                                                                      <a class="nav-link" data-toggle="collapse" href="#ausSouthLocation2Client2Dept1Subdept2SubSubDepts">
+                                                                        <span class="nav-text-icon">SD2</span>
+                                                                        <p> Sub-Dept 2
+                                                                            <b class="caret"></b>
+                                                                        </p>
+                                                                      </a>
+                                                                      <div class="collapse" id="ausSouthLocation2Client2Dept1Subdept2SubSubDepts">
+                                                                          <ul class="nav">
+                                                                              <li class="nav-item ">
+                                                                                  <a class="nav-link" href="#">
+                                                                                    <i class="material-icons">assessment</i>
+                                                                                    <p> Sub-Sub-Depts Overview </p>
+                                                                                  </a>
+                                                                                </li>
+                                                                            <li class="nav-item ">
+                                                                              <a class="nav-link" data-toggle="collapse" href="#">
+                                                                                <span class="nav-text-icon">SSD1</span>
+                                                                                <p> Sub-Sub-Dept 1
+                                                                                </p>
+                                                                              </a>
+                                                                            </li>
+                                                                            <li class="nav-item ">
+                                                                                <a class="nav-link" data-toggle="collapse" href="#">
+                                                                                  <span class="nav-text-icon">SSD2</span>
+                                                                                  <p> Sub-Sub-Dept 2
+                                                                                  </p>
+                                                                                </a>
+                                                                              </li>
+                                                                          </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                  </ul>
+                                                                </div>
+                                                              </li>
+                                                              <li class="nav-item ">
+                                                                  <a class="nav-link" data-toggle="collapse" href="#">
+                                                                    <span class="nav-text-icon">D2</span>
+                                                                    <p> Dept 2
+                                                                    </p>
+                                                                  </a>
+                                                                </li>
+                                                            </ul>
+                                                          </div>
+                                                    </li>
+                                                  </ul>
+                                                </div>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                </li>
+                              </ul>
+                              </div>
+                            </li>
+
+
+                    </ul>
+
+
       </div>
     </div>
     <div class="main-panel">

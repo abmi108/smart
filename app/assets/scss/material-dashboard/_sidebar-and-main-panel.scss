@@ -50,42 +50,42 @@
           }
         }
 
-        > .nav,
-        .user .user-info{
-            [data-toggle="collapse"] ~ div > ul > li > a{
-                span{
-                    display: inline-block;
-                    @extend .animation-transition-general;
-                }
+        // > .nav,
+        // .user .user-info{
+        //     [data-toggle="collapse"] ~ div > ul > li > a{
+        //         span{
+        //             display: inline-block;
+        //             @extend .animation-transition-general;
+        //         }
 
-                .sidebar-normal{
-                    margin: 0;
-                    position: relative;
-                    transform: translateX(0px);
-                    opacity: 1;
-                    white-space: nowrap;
-                    display: block;
+        //         .sidebar-normal{
+        //             margin: 0;
+        //             position: relative;
+        //             transform: translateX(0px);
+        //             opacity: 1;
+        //             white-space: nowrap;
+        //             display: block;
 
-                }
+        //         }
 
-                .sidebar-mini{
-                    text-transform: uppercase;
-                    width: 30px;
-                    margin-right: 15px;
-                    text-align: center;
-                    letter-spacing: 1px;
-                    position: relative;
-                    float: left;
-                    display: inherit;
-                }
+        //         // .sidebar-mini{
+        //         //     text-transform: uppercase;
+        //         //     width: 30px;
+        //         //     margin-right: 15px;
+        //         //     text-align: center;
+        //         //     letter-spacing: 1px;
+        //         //     position: relative;
+        //         //     float: left;
+        //         //     display: inherit;
+        //         // }
 
-                i{
-                    font-size: 17px;
-                    line-height: 20px;
-                    width: 26px;
-                }
-            }
-        }
+        //         // i{
+        //         //     font-size: 17px;
+        //         //     line-height: 20px;
+        //         //     width: 26px;
+        //         // }
+        //     }
+        // }
     }
 
     .logo-tim{
@@ -184,6 +184,28 @@
             text-align: center;
             color: #a9afbb;
         }
+
+        .nav-text-icon{
+            font-size: 16px;
+            float: left;
+            margin-right: 15px;
+            line-height: 30px;
+            width: 30px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .sidebar-mini{
+            text-transform: uppercase;
+            width: 30px;
+            margin-right: 15px;
+            text-align: center;
+            letter-spacing: 1px;
+            position: relative;
+            float: left;
+            display: inherit;
+        }
+        
     }
 
     .nav li a,
