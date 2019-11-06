@@ -47,21 +47,21 @@
                 <b class="caret"></b>
               </span> 
             </a>
-            <div class="collapse show" id="collapseExample">
+            <div class="collapse" id="collapseExample">
               <ul class="nav">
-                <li class="nav-item">
+                <li class="nav-item user-menu">
                   <a class="nav-link" href="#">
                     <i class="material-icons">account_circle</i>
                     <span class="sidebar-normal"> Profile </span>
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item user-menu">
                   <a class="nav-link" href="#">
                     <i class="material-icons">settings_applications</i>
                     <span class="sidebar-normal"> Settings </span>
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item user-menu">
                   <a class="nav-link" href="#">
                     <i class="material-icons">power_settings_new</i>
                     <span class="sidebar-normal"> Logout </span>
@@ -72,7 +72,7 @@
           </div>
         </div>
         <ul class="nav">
-          <li class="nav-item active ">
+          <li class="nav-item">
             <a class="nav-link" href="../examples/dashboard.html">
               <i class="material-icons">assessment</i>
               <p> Dashboard </p>
@@ -85,7 +85,7 @@
               </a>
             </li>
 
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" data-toggle="collapse" href="#indiaRegions">
               <span class="nav-text-icon">I</span>
               <p> India
@@ -94,13 +94,13 @@
             </a>
             <div class="collapse" id="indiaRegions">
               <ul class="nav">
-                  <li class="nav-item ">
+                  <li class="nav-item">
                       <a class="nav-link" href="#">
                         <i class="material-icons">assessment</i>
                         <p> Regions Overview </p>
                       </a>
                     </li>
-                <li class="nav-item ">
+                <li class="nav-item">
                   <a class="nav-link" data-toggle="collapse" href="#indiaEastLocations">
                     <span class="nav-text-icon">E</span>
                     <p> India-East
@@ -115,7 +115,7 @@
                           <p> Locations Overview </p>
                         </a>
                       </li>
-                      <li class="nav-item ">
+                      <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#indiaEastLocation1Clients">
                           <span class="nav-text-icon">L</span>
                           <p> Location 1
@@ -360,7 +360,7 @@
                                                               </p>
                                                             </a>
                                                           </li>
-                                                          <li class="nav-item ">
+                                                          <li class="nav-item">
                                                               <a class="nav-link" data-toggle="collapse" href="#">
                                                                 <span class="nav-text-icon">SSD2</span>
                                                                 <p> Sub-Sub-Dept 2
@@ -649,7 +649,7 @@
                                                                       </p>
                                                                     </a>
                                                                   </li>
-                                                                  <li class="nav-item ">
+                                                                  <li class="nav-item active">
                                                                       <a class="nav-link" data-toggle="collapse" href="#">
                                                                         <span class="nav-text-icon">SSD2</span>
                                                                         <p> Sub-Sub-Dept 2
@@ -1367,182 +1367,74 @@
         <div class="content">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-7 mx-auto">
+              <div class="col-md-10 mx-auto">
                 <div class="card">
                   <div class="card-header card-header-success card-header-icon">
                     <div class="card-icon">
-                      <i class="material-icons"></i>
+                      <i class="material-icons">perm_identity</i>
                     </div>
-                    <h4 class="card-title">Statistics</h4>
+                    <h4 class="card-title">Profile</h4>
                   </div>
                   <div class="card-body ">
-                    <div class="row ml-4 mt-2">
+                    <div class="row ml-4 mt-2 pb-5 align-items-center">
                         <div class="col-md-4 pl-5">
-                          <h5>Total Clients</h5>
-                          <h3 class="stat-number">12</h3>
+                            <div class="fileinput fileinput-new text-center" data-provides="fileinput">
+                                <div class="fileinput-new thumbnail img-circle">
+                                  <img src="../../assets/img/placeholder.jpg" alt="...">
+                                </div>
+                                <div class="fileinput-preview fileinput-exists thumbnail img-circle"></div>
+                                <div>
+                                  <span class="btn btn-round btn-rose btn-file">
+                                    <span class="fileinput-new">Add Photo</span>
+                                    <span class="fileinput-exists">Change</span>
+                                    <input type="file" name="..." />
+                                  </span>
+                                  <br />
+                                  <a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
+                                </div>
+                              </div>
                           </div>
-                          <div class="col-md-4">
-                              <h5>Total Locations</h5>
-                              <h3 class="stat-number">56</h3>
+                          <div class="col-md-6 mx-auto">
+                              <form method="#" action="#">
+                                  <div class="form-group">
+                                      <label for="profileName" class="bmd-label-floating">Name</label>
+                                      <input type="text" class="form-control" id="profileName">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="profileEmail" class="bmd-label-floating">Email Address</label>
+                                    <input type="email" class="form-control" id="profileEmail">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="profilePass" class="bmd-label-floating">Phone Number</label>
+                                    <input type="text" class="form-control" id="examplePass">
+                                  </div>
+                                  <button class="btn btn-primary btn-link p-0 mt-4 mb-0 change-password-button">
+                                      Change Password
+                                  </button>
+                                  <div id="change-password-fields" class="invisible mb-3">
+                                      <div class="form-group mt-3">
+                                          <label for="oldPass" class="bmd-label-floating">Old Password</label>
+                                          <input type="password" class="form-control" id="oldPass">
+                                      </div>
+                                      <div class="form-group">
+                                          <label for="newPass" class="bmd-label-floating">New Password</label>
+                                          <input type="password" class="form-control" id="newPass">
+                                      </div>
+                                      <div class="form-group">
+                                          <label for="newRePass" class="bmd-label-floating">Re-enter New Password</label>
+                                          <input type="password" class="form-control" id="newRePass">
+                                      </div>
+                                  </div> 
+                                  <div>
+                                    <button type="submit" class="btn btn-fill btn-rose disabled">Submit</button>
+                                  </div>
+                                </form>
                             </div>
-                      <div class="col-md-4">
-                          <h5>Total Smartscreens</h5>
-                          <h3 class="stat-number">546</h3>
-                      </div>
                           </div>
                           </div>
                           </div>
                           </div>
                         </div>
-
-
-                        <div class="row">
-                          <div class="col-md-3 mx-auto">
-                              <div class="card card-stats">
-                                  <div class="card-header card-header-success card-header-icon">
-                                    <div class="card-icon">
-                                        <i class="material-icons">
-                                            check_circle
-                                            </i>
-                                    </div>
-                                    <p class="card-category">Sites: 6</p>
-                                    <h3 class="card-title">TATA</h3>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="stats">
-                                      <i class="material-icons text-success">check_circle</i>
-                                      <a href="#pablo">All Site Panels OK</a>
-                                    </div>
-                                  </div>
-                                </div>
-                          </div>
-                          <div class="col-md-3 mx-auto">
-                              <div class="card card-stats">
-                                  <div class="card-header card-header-danger card-header-icon">
-                                    <div class="card-icon">
-                                        <i class="material-icons">
-                                            cancel
-                                            </i>
-                                    </div>
-                                    <p class="card-category">Sites: 6</p>
-                                    <h3 class="card-title">JINDAL</h3>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="stats">
-                                      <i class="material-icons text-danger">cancel</i>
-                                      <a href="#pablo">Panel Breakdown in Site: 23</a>
-                                    </div>
-                                  </div>
-                                </div>
-                          </div>
-                          <div class="col-md-3 mx-auto">
-                              <div class="card card-stats">
-                                  <div class="card-header card-header-warning card-header-icon">
-                                    <div class="card-icon">
-                                        <i class="material-icons">
-                                            report_problem
-                                            </i>
-                                    </div>
-                                    <p class="card-category">Sites: 6</p>
-                                    <h3 class="card-title">LOREM</h3>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="stats">
-                                      <i class="material-icons text-warning">report_problem</i>
-                                      <a href="#pablo">Panel Problem in Site</a>
-                                    </div>
-                                  </div>
-                                </div>
-                          </div>
-                          <div class="col-md-3 mx-auto">
-                              <div class="card card-stats">
-                                  <div class="card-header card-header-info card-header-icon">
-                                    <div class="card-icon">
-                                        <i class="material-icons">
-                                            error
-                                            </i>
-                                    </div>
-                                    <p class="card-category">Sites: 6</p>
-                                    <h3 class="card-title">IPSUM</h3>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="stats">
-                                      <i class="material-icons text-info">error</i>
-                                      <a href="#pablo">Panel problem in Site XYZ</a>
-                                    </div>
-                                  </div>
-                                </div>
-                          </div>
-                          <div class="col-md-3 mx-auto">
-                              <div class="card card-stats">
-                                  <div class="card-header card-header-warning card-header-icon">
-                                    <div class="card-icon">
-                                      <i class="material-icons">report_problem</i>
-                                    </div>
-                                    <p class="card-category">Sites: 6</p>
-                                    <h3 class="card-title">JOHN</h3>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="stats">
-                                      <i class="material-icons text-warning">report_problem</i>
-                                      <a href="#pablo">Panel Problem in Site</a>
-                                    </div>
-                                  </div>
-                                </div>
-                          </div>
-                          <div class="col-md-3 mx-auto">
-                              <div class="card card-stats">
-                                  <div class="card-header card-header-success card-header-icon">
-                                    <div class="card-icon">
-                                      <i class="material-icons">check_circle</i>
-                                    </div>
-                                    <p class="card-category">Sites: 6</p>
-                                    <h3 class="card-title">DOE</h3>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="stats">
-                                      <i class="material-icons text-success">check_circle</i>
-                                      <a href="#pablo">All Site Panels OK</a>
-                                    </div>
-                                  </div>
-                                </div>
-                          </div>
-                          <div class="col-md-3 mx-auto">
-                              <div class="card card-stats">
-                                  <div class="card-header card-header-not-installed card-header-icon">
-                                    <div class="card-icon">
-                                      <i class="material-icons">remove_circle</i>
-                                    </div>
-                                    <p class="card-category">Sites: 6</p>
-                                    <h3 class="card-title">JANE</h3>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="stats">
-                                      <i class="material-icons text-grey">remove_circle</i>
-                                      <a href="#pablo">No panels installed in Site</a>
-                                    </div>
-                                  </div>
-                                </div>
-                          </div>
-                          <div class="col-md-3 mx-auto">
-                              <div class="card card-stats">
-                                  <div class="card-header card-header-danger card-header-icon">
-                                    <div class="card-icon">
-                                      <i class="material-icons">cancel</i>
-                                    </div>
-                                    <p class="card-category">Sites: 6</p>
-                                    <h3 class="card-title">DOE</h3>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="stats">
-                                      <i class="material-icons text-danger">cancel</i>
-                                      <a href="#pablo">Panel Breakdown in Site: 23</a>
-                                    </div>
-                                  </div>
-                                </div>
-                          </div>
-                        </div>
-
 
 
                       </div>
@@ -1550,10 +1442,6 @@
                   </div>
                 </div>
               </div>
-
-              <button class="btn btn-primary btn-round btn-fab fixed-button" style="position:fixed;z-index:999;right:50px;bottom:30px;">
-                  <i class="material-icons">add</i>
-              </button>
 
               <div class="fixed-plugin">
                 <div class="dropdown show-dropdown">
@@ -1698,6 +1586,9 @@
               <script src="../assets/js/material-dashboard.js?v=2.1.0" type="text/javascript"></script>
               <!-- Material Dashboard DEMO methods, don't include it in your project! -->
               <script src="../assets/demo/demo.js"></script>
+
+              <script src="../assets/js/custom.js"></script>
+
               <script>
                 $(document).ready(function() {
                   $().ready(function() {

@@ -54,3 +54,8 @@
   position: absolute;
   width: 260px;
 }
+
+
+.invisible{
+  display:none;
+}
