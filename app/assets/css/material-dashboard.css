@@ -10546,11 +10546,11 @@ fieldset[disabled] .form-group .form-control {
   .navbar .notification {
     position: absolute;
     top: 5px;
-    border: 1px solid #FFF;
+    border: 1px solid #fff;
     right: 10px;
     font-size: 9px;
     background: #f44336;
-    color: #FFFFFF;
+    color: #ffffff;
     min-width: 20px;
     padding: 0px 5px;
     height: 20px;
@@ -12165,8 +12165,8 @@ thead.thead-inverse th,
         height: 100%;
         background-size: cover;
         z-index: -1;
-        -webkit-transition: opacity .45s;
-        transition: opacity .45s;
+        -webkit-transition: opacity 0.45s;
+        transition: opacity 0.45s;
         opacity: 0; }
       .card .card-header.card-header-image.no-shadow {
         -webkit-box-shadow: none;
@@ -12375,7 +12375,7 @@ thead.thead-inverse th,
     .card .card-actions .fix-broken-card {
       position: absolute;
       top: -65px; }
-  .card.card-chart .card-footer i:nth-child(1n+2) {
+  .card.card-chart .card-footer i:nth-child(1n + 2) {
     width: 18px;
     text-align: center; }
   .card.card-chart .card-category {
@@ -12525,6 +12525,10 @@ thead.thead-inverse th,
   margin-bottom: 15px; }
   .card-collapse .card .card-header a[aria-expanded="true"] {
     color: #e91e63; }
+
+.card-more {
+  padding-bottom: 0;
+  line-height: 20px; }
 
 .card-signup .card-header {
   margin-left: 20px;
@@ -13717,16 +13721,6 @@ a {
   width: 260px;
   -webkit-box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
-  .sidebar .caret {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    border-top: 4px dashed;
-    border-top: 4px solid\9;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent; }
   .sidebar .sidebar-wrapper {
     position: relative;
     height: calc(100vh - 75px);
@@ -13851,8 +13845,8 @@ a {
       height: 100%;
       content: "";
       display: block;
-      background: #FFFFFF;
-      opacity: .93; }
+      background: #ffffff;
+      opacity: 0.93; }
   .sidebar .logo {
     padding: 15px 0px;
     margin: 0;
@@ -13872,7 +13866,7 @@ a {
       -webkit-transform: translate3d(0px, 0, 0);
       transform: translate3d(0px, 0, 0); }
     .sidebar .logo:after {
-      content: '';
+      content: "";
       position: absolute;
       bottom: 0;
       right: 15px;
@@ -13911,7 +13905,7 @@ a {
     margin: 20px auto 0;
     position: relative; }
     .sidebar .user:after {
-      content: '';
+      content: "";
       position: absolute;
       bottom: 0;
       right: 15px;
@@ -14024,7 +14018,7 @@ a {
     .sidebar[data-color="white"] .nav .nav-item.active > a:not([data-toggle="collapse"]) i {
       color: rgba(60, 72, 88, 0.8); }
   .sidebar[data-image]:after, .sidebar.has-image:after {
-    opacity: .77; }
+    opacity: 0.77; }
 
 .off-canvas-sidebar .navbar-collapse .nav > li > a,
 .off-canvas-sidebar .navbar-collapse .nav > li > a:hover {
@@ -14063,13 +14057,12 @@ a {
 .sidebar,
 .main-panel,
 .sidebar-wrapper {
-  -webkit-transition-property: top,bottom,width;
-  -webkit-transition-property: top,bottom, width;
-  transition-property: top,bottom, width;
-  -webkit-transition-duration: .2s,.2s, .35s;
-  transition-duration: .2s,.2s, .35s;
-  -webkit-transition-timing-function: linear,linear,ease;
-  transition-timing-function: linear,linear,ease;
+  -webkit-transition-property: top, bottom, width;
+  transition-property: top, bottom, width;
+  -webkit-transition-duration: 0.2s, 0.2s, 0.35s;
+  transition-duration: 0.2s, 0.2s, 0.35s;
+  -webkit-transition-timing-function: linear, linear, ease;
+  transition-timing-function: linear, linear, ease;
   -webkit-overflow-scrolling: touch; }
 
 .visible-on-sidebar-regular {
@@ -14119,8 +14112,19 @@ a {
         transform: translate3d(0px, 0, 0);
         opacity: 1; } }
 
-.sidebar[data-background-color=black] {
+.sidebar[data-background-color="black"] {
   background: #191919; }
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid\9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent; }
 
 .fixed-plugin .dropdown .dropdown-menu {
   border-radius: 10px; }
